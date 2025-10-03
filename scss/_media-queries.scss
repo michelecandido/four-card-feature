@@ -1,0 +1,7 @@
+/* media queries */
+@media (max-width: 768px) {
+    .features {
+        display: flex;
+        flex-direction: column;
+    }
+}

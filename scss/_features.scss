@@ -3,13 +3,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
-}
-
-@media (max-width: 768px) {
-    .features {
-        display: flex;
-        flex-direction: column;
-    }
+    gap: 2em;
 }
 
 .card {

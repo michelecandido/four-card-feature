@@ -53,14 +53,9 @@ main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
+  gap: 2em;
 }
 
-@media (max-width: 768px) {
-  .features {
-    display: flex;
-    flex-direction: column;
-  }
-}
 .card {
   padding: 2em;
   justify-self: center;
@@ -82,4 +77,12 @@ main {
 .card:nth-child(4) {
   grid-column: 3;
   grid-row: 2;
+}
+
+/* media queries */
+@media (max-width: 768px) {
+  .features {
+    display: flex;
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=style.css.map */
