@@ -61,7 +61,7 @@ main {
 
 .card {
   padding: 2em;
-  padding-bottom: 2.55em;
+  padding-bottom: 3em;
   justify-self: center;
   border-radius: 5px;
   background-color: white;
@@ -73,6 +73,10 @@ main {
 .card__description {
   font-size: 0.9rem;
   padding: 0.5em 0 2.3em 0;
+}
+.card__img {
+  display: block;
+  margin-left: auto;
 }
 .card:nth-child(1) {
   border-top: 0.3em solid hsl(180, 62%, 55%);
